@@ -1,0 +1,165 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+a {
+    color: #000000;
+   
+}
+
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #000000; 
+    text-decoration: none;
+    transition: color .15sease-in-out, background-color .15sease-in-out, border-color .15sease-in-out;
+}
+.banner img {
+   
+    height: 80vh !important;
+    width: 100% !important;
+}
+
+.h5 {
+    color: black !important;
+}
+p{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-img-top {
+    width: 100%;
+    height:60vh; /* Set the desired height */
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+  }
+  .navbar-brand{
+    
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .carousel-item img {
+    height: 500px; /* Adjust height */
+    object-fit: cover; /* Ensures images fill the space */
+   
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+  .carousel-caption {
+    bottom: 20%; /* Position text better */
+    background-color: rgb(148 130 140 / 38%);
+  
+  }
+
+  .carousel-caption h5 {
+    font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 55px;
+   
+   
+  }
+
+  .carousel-caption p {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.1rem;
+    color: #333;
+   
+   
+   
+  }
+
+  .carousel-caption .btn {
+    background-color: #ffffff; /* Stylish pink */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: 0.3s;
+  }
+
+  .carousel-caption .btn:hover {
+    background-color: #e91e63;
+  }
+  @media (max-width: 768px) {
+    .carousel-caption {
+        bottom: 15%;
+    }
+    
+    .carousel-caption h5 {
+        font-size: 1.5rem; /* Reduce heading size */
+    }
+
+    .carousel-caption p {
+        font-size: 1rem; /* Reduce paragraph size */
+    }
+
+    .btn-gradient {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .card-img-top {
+        height: 180px;
+    }
+
+}
+
+/* For very small devices (phones) */
+@media (max-width: 480px) {
+    .carousel-caption {
+        bottom: 10%;
+        padding: 10px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.2rem; /* Further reduce heading size */
+    }
+
+    .carousel-caption p {
+        font-size: 0.9rem; /* Further reduce paragraph size */
+    }
+
+    .btn-gradient {
+        padding: 6px 12px;
+        font-size: 12px;
+    }
+    .row-cols-1 .col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .card-img-top {
+        aspect-ratio: 1 / 1; * Slightly more square for mobile */
+    }
+}
+
+/* Gradient Button */
+.btn-gradient {
+
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+ 
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+
+.btn-gradient:hover {
+    background: linear-gradient(45deg, #eb86a8, #e480a8);
+}
